@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+.img-fluid{width:100%; display:flex;}
+
+.navbar-light .navbar-nav .nav-link  {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{color: aqua;}
+.navbar-expand-lg .navbar-nav .nav-link{padding-right: 2rem;padding-left: 2rem;}
+.page-footer{background: #001235; color: #fff!important;}
+a {color: #f3f9ff!important;
+    text-decoration: none;
+	background-color: transparent;}
+.ftr{background: #001235;padding: 3rem 0;box-sizing: border-box}
+
+.service ul li a {font-size: 14px;}
+
+.service ul li{padding: 0 0 .5rem 0}
+
+.service ul li:last-child{padding: 0}
+
+.line{border-top: 1px solid #828283;margin: 2rem 0}
+
+.subs .btn-primary {color: #fff;background-color: transparent;border-color: #828283;}
+
+.subs .btn-lg{padding: 6px 5px}
+
+.subs .btn-block {display: block;width: 90%;}
+
+.subs .btn{border-radius: 0}
+
+.social p{float: left;padding: 0 0 0 1.2rem}
+

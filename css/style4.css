@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    padding-top: 0rem!important;
+    padding-bottom: 0rem!important;
+    color: #5a5a5a;
+}
+.container { max-width: 1170px;width: 100%}
+.navbar-light .navbar-nav .nav-link  {color: white;}
+.navbar-light .navbar-nav .nav-link:hover{color: aqua;}
+.navbar-expand-lg .navbar-nav .nav-link{padding-right: 2rem;padding-left: 2rem;}
+#src{
+width: 0px;
+height: 33px;
+border: 1px solid transparent;
+background: transparent url("../pic/search.png") no-repeat right 5px center;
+color: #fff;
+padding: 0 32px 0 5px;
+box-sizing: border-box;
+transition: all 500ms;margin-top: 6px}
+
+#src:focus{width: 240px;border: 0; border-bottom: 1px solid white;}
+.allvivo{ font-size: 25px;font-family:  Verdana, "sans-serif"}
+.img1{margin: auto}
+.page-footer{background: #001235; color: #fff!important;}
+/*a {color: #f3f9ff!important;
+    text-decoration: none!important;
+	background-color: transparent;}*/
+.ftr{background: #001235;padding: 3rem 0;box-sizing: border-box}
+
+.service ul li a {font-size: 14px;color: #C3C2C2}
+
+.service ul li a:hover{color: white; text-decoration: none !important}
+
+.service ul li{padding: 0 0 .5rem 0}
+
+.service ul li:last-child{padding: 0}
+
+.line{border-top: 1px solid #828283;margin: 2rem 0}
+
+.subs .btn-primary {color: #fff;background-color: transparent;border-color: #828283;}
+
+.subs .btn-lg{padding: 6px 5px}
+
+.subs .btn-block {display: block;width: 90%;}
+
+.subs .btn{border-radius: 0}
+
+.social p{float: left;padding: 0 0 0 1.2rem}
+
+.Item{color:#1c6ab0;}
+
+.Allvivo {color: #247de5; display: table;margin: auto; font-size:18px}
+
+.search{width:100%; border:0px solid #777575;}
+.search input[type="email"]{ width:60%; border:none; height:35px;}
+.search input[type="submit"]{ width:40%; border:none; height:35px; text-align:center; background:#3751db; color:white; }
+.buy a {border-radius: 25px; width: 35%}
+
